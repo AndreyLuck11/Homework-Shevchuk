@@ -13,13 +13,13 @@ int main()
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
 
-    cout << "Введите сторону a" << endl;
+    cout << "VVedite storonu a" << endl;
     cin >> a;
 
-    cout << "Введите сторону b" << endl;
+    cout << "VVedite storonu b" << endl;
     cin >> b;
 
-    cout << "Введите сторону c" << endl;
+    cout << "VVedite storonu c" << endl;
     cin >> c;
 
     P = a + b + c;
@@ -32,8 +32,8 @@ int main()
 
 
 
-    getchar();  // ожидание ввода, чтобы прога
-    getchar();  // не закрывалась после выполнения
+    getchar();  // Г®Г¦ГЁГ¤Г Г­ГЁГҐ ГўГўГ®Г¤Г , Г·ГІГ®ГЎГ» ГЇГ°Г®ГЈГ 
+    getchar();  // Г­ГҐ Г§Г ГЄГ°Г»ГўГ Г«Г Г±Гј ГЇГ®Г±Г«ГҐ ГўГ»ГЇГ®Г«Г­ГҐГ­ГЁГї
 
     return 0;
 }
