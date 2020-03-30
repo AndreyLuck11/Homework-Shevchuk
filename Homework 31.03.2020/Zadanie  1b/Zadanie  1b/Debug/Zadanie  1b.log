@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\Andrey\Desktop\Homework 31.03.2020\Zadanie  1b\Zadanie  1b\Source.cpp(5,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\Andrey\Desktop\Homework 31.03.2020\Zadanie  1b\Zadanie  1b\Source.cpp(6,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Zadanie  1b.vcxproj -> C:\Users\Andrey\Desktop\Homework 31.03.2020\Zadanie  1b\Debug\Zadanie  1b.exe
