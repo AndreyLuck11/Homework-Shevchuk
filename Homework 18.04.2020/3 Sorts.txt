@@ -1,0 +1,114 @@
+Sort 1
+
+------------------------
+100 elementov
+Selection Sort 	628
+Bubble Sort 	7059
+Insertion Sort 	8112
+------------------------
+
+------------------------
+100 elementov
+Selection Sort 	7217
+Bubble Sort 	737406
+Insertion Sort 	756240
+------------------------
+
+------------------------
+100 elementov
+Selection Sort 	37100
+Bubble Sort 	18676344
+Insertion Sort 	18774348
+------------------------
+
+------------------------
+100 elementov
+Selection Sort 	73756
+Bubble Sort 	74294436
+Insertion Sort 	73750791
+------------------------
+
+------------------------
+100 elementov
+Selection Sort 	367763
+Bubble Sort 	1848379665
+Insertion Sort 	1855792392
+------------------------
+
+
+Sort 2
+
+------------------------
+100 elementov
+Selection Sort 	568
+Bubble Sort 	6639
+Insertion Sort 	6948
+------------------------
+
+------------------------
+100 elementov
+Selection Sort 	7167
+Bubble Sort 	736737
+Insertion Sort 	751254
+------------------------
+
+------------------------
+100 elementov
+Selection Sort 	36709
+Bubble Sort 	18671679
+Insertion Sort 	18612552
+------------------------
+
+------------------------
+100 elementov
+Selection Sort 	73086
+Bubble Sort 	74392422
+Insertion Sort 	74193297
+------------------------
+
+------------------------
+100 elementov
+Selection Sort 	366614
+Bubble Sort 	1863967830
+Insertion Sort 	1854013473
+------------------------
+
+
+Sort 3
+
+------------------------
+100 elementov
+Selection Sort 	624
+Bubble Sort 	8571
+Insertion Sort 	6588
+------------------------
+
+------------------------
+100 elementov
+Selection Sort 	7195
+Bubble Sort 	718572
+Insertion Sort 	747720
+------------------------
+
+------------------------
+100 elementov
+Selection Sort 	36749
+Bubble Sort 	18650883
+Insertion Sort 	18776583
+------------------------
+
+------------------------
+100 elementov
+Selection Sort 	74505
+Bubble Sort 	74750625
+Insertion Sort 	75639882
+------------------------
+
+------------------------
+100 elementov
+Selection Sort 	369818
+Bubble Sort 	1857458673
+Insertion Sort 	1859611515
+------------------------
+
+

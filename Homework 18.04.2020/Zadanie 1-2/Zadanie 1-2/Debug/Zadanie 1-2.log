@@ -1,0 +1,19 @@
+﻿  Source.cpp
+C:\Users\Andrey\source\repos\Zadanie 1-2\Zadanie 1-2\Source.cpp(25,27): warning C4305: аргумент: усечение из "__int64" в "unsigned int"
+C:\Users\Andrey\source\repos\Zadanie 1-2\Zadanie 1-2\Source.cpp(25,11): warning C4309: аргумент: усечение константного значения
+C:\Users\Andrey\source\repos\Zadanie 1-2\Zadanie 1-2\Source.cpp(94,32): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\Andrey\source\repos\Zadanie 1-2\Zadanie 1-2\Source.cpp(101,32): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\Andrey\source\repos\Zadanie 1-2\Zadanie 1-2\Source.cpp(107,32): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\Andrey\source\repos\Zadanie 1-2\Zadanie 1-2\Source.cpp(138,32): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\Andrey\source\repos\Zadanie 1-2\Zadanie 1-2\Source.cpp(145,32): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\Andrey\source\repos\Zadanie 1-2\Zadanie 1-2\Source.cpp(151,32): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\Andrey\source\repos\Zadanie 1-2\Zadanie 1-2\Source.cpp(181,32): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\Andrey\source\repos\Zadanie 1-2\Zadanie 1-2\Source.cpp(188,32): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\Andrey\source\repos\Zadanie 1-2\Zadanie 1-2\Source.cpp(194,32): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\Andrey\source\repos\Zadanie 1-2\Zadanie 1-2\Source.cpp(226,32): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\Andrey\source\repos\Zadanie 1-2\Zadanie 1-2\Source.cpp(233,32): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\Andrey\source\repos\Zadanie 1-2\Zadanie 1-2\Source.cpp(239,32): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\Andrey\source\repos\Zadanie 1-2\Zadanie 1-2\Source.cpp(268,32): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\Andrey\source\repos\Zadanie 1-2\Zadanie 1-2\Source.cpp(275,32): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\Andrey\source\repos\Zadanie 1-2\Zadanie 1-2\Source.cpp(281,32): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  Zadanie 1-2.vcxproj -> C:\Users\Andrey\source\repos\Zadanie 1-2\Debug\Zadanie 1-2.exe
