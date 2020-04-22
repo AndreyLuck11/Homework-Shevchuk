@@ -44,9 +44,7 @@ void selectionSort(float data[], int len) {
             }
         }
         tmp = data[i];
-        counterS++;
         data[i] = data[j];
-        counterS++;
         data[j] = tmp;
         counterS++;
     }
@@ -58,11 +56,11 @@ void insertionSort(float data[], int len) {
     for (int i = 1; i < len; i++) {
         key = data[i];
         j = i - 1;
+        counterI++;
         while (j >= 0 && data[j] > key) {
             data[j + 1] = data[j];
-            counterI++;
             j = j - 1;
-            counterI++;
+           
             data[j + 1] = key;
             counterI++;
         }
@@ -75,9 +73,7 @@ void bubbleSort(float data[], int len) {
         for (int j = len - 1; j >= i + 1; j--) {
             if (data[j] < data[j - 1]) {
                 tmp = data[j];
-                counterB++;
                 data[j] = data[j - 1];
-                counterB++;
                 data[j - 1] = tmp;
                 counterB++;
             }
