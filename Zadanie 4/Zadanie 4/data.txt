@@ -1,0 +1,13 @@
+The brand of plane	Number Of Passengers	Max speed
+143	893
+lyJYH	140	842
+xUjjl	139	849
+COksf	133	974
+xjsWn	131	825
+SFadp	110	952
+HMsNC	101	823
+VATXd	97	953
+eJUvP	92	961
+Yamye	88	946
+ljVRV	87	762
+vAOwU	82	825
