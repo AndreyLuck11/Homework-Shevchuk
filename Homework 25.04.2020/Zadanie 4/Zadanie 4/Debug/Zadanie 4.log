@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\Andrey\source\repos\Zadanie 4\Zadanie 4\Source.cpp(23,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Andrey\source\repos\Zadanie 4\Zadanie 4\Source.cpp(143,25): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\Andrey\source\repos\Zadanie 4\Zadanie 4\Source.cpp(155,25): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  Zadanie 4.vcxproj -> C:\Users\Andrey\source\repos\Zadanie 4\Debug\Zadanie 4.exe
