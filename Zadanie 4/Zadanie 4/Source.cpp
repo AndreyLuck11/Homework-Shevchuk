@@ -8,7 +8,7 @@ using namespace std;
 
 struct Plane {
 
-	string Country;
+	string Brand;
 	int NumberOfPassengers;
 	float Speed;
 };
@@ -29,7 +29,7 @@ void randString(string& str) {
 
 void showPlane(const Plane p) {
 
-	cout << "\t" << p.Country << "\t\t\t"
+	cout << "\t" << p.Brand << "\t\t\t"
 		<< p.NumberOfPassengers << "\t\t"
 		<< "   " << p.Speed << endl;
 }
@@ -37,7 +37,7 @@ void showPlane(const Plane p) {
 void showPlaneF(const Plane p) {
 	fstream f;
 	f.open("data.txt", ios::out | ios::trunc);
-	f << "\t" << p.Country << "\t\t\t"
+	f << "\t" << p.Brand << "\t\t\t"
 		<< p.NumberOfPassengers << "\t\t"
 		<< "   " << p.Speed << endl;
 	f.close();
@@ -48,12 +48,12 @@ void showPlaneF(const Plane p) {
 void bubbleSortSpeed(Plane planes[], int Size) {
 	int j = 0;
 	Plane tmp;
-	// идём по массиву
+	// ГЁГ¤ВёГ¬ ГЇГ® Г¬Г Г±Г±ГЁГўГі
 	for (int i = 0; i < Size; i++) {
-		// делаем проверки в оставшейся части массива
+		// Г¤ГҐГ«Г ГҐГ¬ ГЇГ°Г®ГўГҐГ°ГЄГЁ Гў Г®Г±ГІГ ГўГёГҐГ©Г±Гї Г·Г Г±ГІГЁ Г¬Г Г±Г±ГЁГўГ 
 		for (int j = Size - 1; j >= i + 1; j--) {
-			if (planes[j].Speed > planes[i].Speed) {  // сравниваем соседние элементы
-				// делаем перестановку
+			if (planes[j].Speed > planes[i].Speed) {  // Г±Г°Г ГўГ­ГЁГўГ ГҐГ¬ Г±Г®Г±ГҐГ¤Г­ГЁГҐ ГЅГ«ГҐГ¬ГҐГ­ГІГ»
+				// Г¤ГҐГ«Г ГҐГ¬ ГЇГҐГ°ГҐГ±ГІГ Г­Г®ГўГЄГі
 				tmp = planes[i];
 				planes[i] = planes[j];
 				planes[j] = tmp;
@@ -65,12 +65,12 @@ void bubbleSortSpeed(Plane planes[], int Size) {
 void bubbleSortNumberOfPassengers(Plane planes[], int Size) {
 	int j = 0;
 	Plane tmp;
-	// идём по массиву
+	// ГЁГ¤ВёГ¬ ГЇГ® Г¬Г Г±Г±ГЁГўГі
 	for (int i = 0; i < Size; i++) {
-		// делаем проверки в оставшейся части массива
+		// Г¤ГҐГ«Г ГҐГ¬ ГЇГ°Г®ГўГҐГ°ГЄГЁ Гў Г®Г±ГІГ ГўГёГҐГ©Г±Гї Г·Г Г±ГІГЁ Г¬Г Г±Г±ГЁГўГ 
 		for (int j = Size - 1; j >= i + 1; j--) {
-			if (planes[j].NumberOfPassengers > planes[i].NumberOfPassengers) {  // сравниваем соседние элементы
-				// делаем перестановку
+			if (planes[j].NumberOfPassengers > planes[i].NumberOfPassengers) {  // Г±Г°Г ГўГ­ГЁГўГ ГҐГ¬ Г±Г®Г±ГҐГ¤Г­ГЁГҐ ГЅГ«ГҐГ¬ГҐГ­ГІГ»
+				// Г¤ГҐГ«Г ГҐГ¬ ГЇГҐГ°ГҐГ±ГІГ Г­Г®ГўГЄГі
 				tmp = planes[i];
 				planes[i] = planes[j];
 				planes[j] = tmp;
@@ -98,7 +98,7 @@ void Cout(Plane planes[], int Size) {
 }
 
 void file(Plane planes[], int Size, const int l) {
-	
+
 	ofstream f;
 	f.open("data.txt");
 	for (int i = 0; i < l; i++) {
@@ -125,7 +125,7 @@ void write2File(const Plane p[], const int l) {
 
 
 	for (int i = 0; i < l; i++)
-		f << p[i].Country << "\t"
+		f << p[i].Brand << "\t"
 		<< p[i].NumberOfPassengers << "\t"
 		<< p[i].Speed << endl;
 	f.close();
@@ -141,36 +141,27 @@ int main() {
 	{
 		planes[i].NumberOfPassengers = 80 + rand() % 150;
 		planes[i].Speed = 725 + rand() % 250;
-		randString(planes[i].Country);
+		randString(planes[i].Brand);
 
 		showPlaneF(planes[i]);
 
 
 	}
-	
+
 	cout << "The brand of plane\t" << "Number Of Passengers\t" << "Max speed\n";
 	for (int i = 0; i < Size; i++)
 	{
 		planes[i].NumberOfPassengers = 80 + rand() % 150;
 		planes[i].Speed = 725 + rand() % 250;
-		randString(planes[i].Country);
+		randString(planes[i].Brand);
 
 		showPlane(planes[i]);
 
 
 	}
 
-
 	Cout(planes, Size);
-	file(planes, Size,  1);
+	file(planes, Size, 1);
 	write2File(planes, Size);
-
-
-
-
-
-
 	return 0;
 }
-
-
