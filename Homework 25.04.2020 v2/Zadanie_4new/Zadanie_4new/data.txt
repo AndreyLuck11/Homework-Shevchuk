@@ -1,0 +1,34 @@
+
+                        Sorted cost
+
+The name of Fruits	sweetness	cost
+	fircv			1		   551
+	qghUm			1		   527
+	YlNlf			8		   522
+	xgGBw			4		   462
+	nqDux			8		   455
+	MZnIm			1		   453
+	asvws			6		   400
+	tkJPR			2		   393
+	eViKe			6		   365
+	ysyYc			2		   348
+	VysTm			3		   301
+	nfOzv			2		   227
+	nZKyC			9		   186
+	gGxRP			8		   107
+	xTLSg			9		   101
+
+                 Sorted sweetness
+
+The name of Fruits	sweetness	cost
+	YlNlf			8		   522
+	nqDux			8		   455
+	eViKe			6		   365
+	asvws			6		   400
+	xgGBw			4		   462
+	VysTm			3		   301
+	ysyYc			2		   348
+	tkJPR			2		   393
+	MZnIm			1		   453
+	qghUm			1		   527
+	fircv			1		   551

@@ -1,0 +1,38 @@
+
+                        Sorted Max Speed
+
+The brand of plane	Number Of Passengers	Max speed
+	VysTm			103		   966
+	fircv			141		   966
+	qghUm			121		   942
+	YlNlf			188		   937
+	nfOzv			192		   892
+	xgGBw			134		   877
+	nqDux			148		   870
+	MZnIm			131		   868
+	nZKyC			119		   851
+	asvws			86		   815
+	tkJPR			202		   808
+	eViKe			226		   780
+	gGxRP			198		   772
+	xTLSg			209		   766
+	ysyYc			122		   763
+
+                 Sorted Number Of Passengers
+
+The brand of plane	Number Of Passengers	Max speed
+	eViKe			226		   780
+	xTLSg			209		   766
+	tkJPR			202		   808
+	gGxRP			198		   772
+	nfOzv			192		   892
+	YlNlf			188		   937
+	nqDux			148		   870
+	fircv			141		   966
+	xgGBw			134		   877
+	MZnIm			131		   868
+	ysyYc			122		   763
+	qghUm			121		   942
+	nZKyC			119		   851
+	VysTm			103		   966
+	asvws			86		   815
